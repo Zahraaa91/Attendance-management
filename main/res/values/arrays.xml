@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="Select_dept">Select Dept</string>
+    <string name="Select_Subject">Select Subject</string>
+
+
+    <string-array name="Dept">
+        <item>Com</item>
+        <item>Math</item>
+    </string-array>
+
+
+    <string-array name="First_sub">
+        <item> Scratch programming</item>
+        <item> Scratch programming LAB</item>
+        <item>Discrete Math</item>
+        <item>VB programming</item>
+        <item>VB programming LAB</item>
+        <item> Human Rights</item>
+        <item>Calculus 1</item>
+        <item>Mathematical Found</item>
+        <item> History Of Math</item>
+        <item>General psychology</item>
+        <item>Algorithm Design </item>
+        <item>Algorithm Design LAB</item>
+        <item>Basic Education</item>
+
+
+
+    </string-array>
+
+
+    <string-array name="Second_sub">
+        <item>Micro_controller </item>
+        <item>Micro_controller LAB</item>
+        <item>C++ Programming </item>
+        <item>C++ Programming LAB</item>
+        <item>Educational Psychology</item>
+        <item>Computational Theory LAB</item>
+        <item>Computational Theory</item>
+        <item>System Management</item>
+        <item>System Management LAB</item>
+        <item>Health Psychology</item>
+        <item>Arabic Language</item>
+        <item>Advanced Statistics </item>
+        <item>Educational Psychology</item>
+        <item>Linear Algebra </item>
+        <item>Advanced Integration</item>
+        <item>Educational Psychology</item>
+
+
+    </string-array>
+
+
+    <string-array name="Third_sub">
+        <item>Communication and Security</item>
+        <item>Communication and Security LAB</item>
+        <item>Operation Research</item>
+        <item>Operation Research LAB</item>
+        <item>General Teaching Methods</item>
+        <item>Computer Architecture</item>
+        <item> Computer Architecture LAB</item>
+        <item>Research Methodology</item>
+        <item>Compilers</item>
+        <item> Compilers LAB</item>
+        <item> Educational Techniques</item>
+        <item> Arabic Language</item>
+        <item>System Analysis</item>
+        <item> System Analysis LAB</item>
+        <item>Test and Measurement</item>
+        <item>Group Theory</item>
+        <item>Mathematical Thinking(logic)</item>
+        <item>ordinary differential  equations</item>
+        <item>Mathematical Analysis</item>
+
+    </string-array>
+
+    <string-array name="Four_sub">
+        <item>Sub1</item>
+        <item>Sub2</item>
+        <item>Sub3</item>
+        <item>Sub4</item>
+
+
+
+    </string-array>
+
+
+
+</resources>

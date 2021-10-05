@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/login_bk_color"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp">
+
+                <TextView
+                    style="@style/viewParent.headerText.NoMode"
+                    android:layout_width="172dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="70dp"
+                    android:text="@string/attendance_management_system" />
+
+                <ImageView
+                    android:contentDescription="@string/todo"
+                    android:id="@+id/iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="31dp"
+                    android:layout_marginEnd="1dp"
+                    android:src="@drawable/ic_register_hero" />
+        </RelativeLayout>
+
+        <EditText
+            android:layout_marginStart="40dp"
+            android:id="@+id/email"
+            style="@style/modifiedEditText"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:layout_width="300dp"
+            android:hint="@string/Enter_Login_Email"
+             android:layout_marginTop="250dp"
+            android:importantForAutofill="no"
+            android:textSize="15sp"/>
+
+
+        <EditText
+            android:layout_marginStart="40dp"
+            android:layout_width="300dp"
+            android:textSize="15sp"
+            android:id="@+id/password"
+            style="@style/modifiedEditText"
+            android:hint="@string/Enter_Login_Password"
+            android:maxLines="1"
+            android:inputType="textPassword"
+            android:layout_marginTop="300dp"
+            android:importantForAutofill="no" />
+
+
+        <Button
+            android:id="@+id/login"
+            style="@style/parent"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_marginTop="60dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/login_here"
+            android:textAlignment="center"
+            android:textColor="@color/themeColor"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:layout_marginStart="150dp"/>
+
+        <View
+            android:layout_width="11dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_side_bg" />
+        <ImageView
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_img"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="@string/todo" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginStart="180dp"
+            android:visibility="invisible"/>
+</RelativeLayout>

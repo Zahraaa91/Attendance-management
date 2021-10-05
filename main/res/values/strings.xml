@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Attendance Management</string>
+    <string name="account_login">acc</string>
+    <string name="login">login</string>
+    <string name="three">three</string>
+    <string name="two">two</string>
+    <string name="four">four</string>
+    <string name="first">first</string>
+    <string name="Save">Save</string>
+    <string name="User_Login">User Login</string>
+    <string name="action_settings">Settings</string>
+    <string name="Enter_Student_Name">Enter Student Name</string>
+    <string name="Enter_Date">Enter Date</string>
+    <string name="Enter_Login_Email">Enter Login Email</string>
+    <string name="Enter_Login_Password">Enter Login Password</string>
+    <string name="login_here">Login Here</string>
+    <string name="todo">TODO</string>
+    <string name="attendance_management_system">Attendance  Management  System</string>
+    <string name="Save_Information">Save Information</string>
+    <string name="open">افتح</string>
+    <string name="warnings">Warnings</string>
+    <string name="Name">Name</string>
+    <string name="Subjects">Subjects</string>
+    <string name="date">Date</string>
+    <string name="show">show</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="Enter_Hours">Enter Number Of Hours</string>
+    <string name="add">add</string>
+    <string name="artists">artists</string>
+    <string name="tap_on_an_artist_to_add_and_view_tracks">view</string>
+    <string name="rock">rock</string>
+    <string name="atif_aslam">aslam</string>
+    <string name="enter_number_of_hours">Enter Number Of Hours</string>
+    <string name="tv1">tv1</string>
+    <string name="tv2">tv2</string>
+    <string name="Click_Here_To_See_Warnings">Click Here To See Warnings</string>
+
+
+</resources>
